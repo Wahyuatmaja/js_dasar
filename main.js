@@ -58,12 +58,19 @@
 // console.log(arraySaya)
 
 // Array yang tidak boleh mengubah isi original arraynya (Slice() bitCopy) 
-const arraySaya = ['Muka', 'Tangan', 'Bibir', 'Kaki', 'Telinga']
+// const arraySaya = ['Muka', 'Tangan', 'Bibir', 'Kaki', 'Telinga']
 //const arrayCopy = [...arraySaya] // cara pertama
 //const arrayCopy = arraySaya.slice() // cara kedua
-const arrayCopy = JSON.parse(JSON.stringify(arraySaya)) // Cara Ketiga
+//const arrayCopy = JSON.parse(JSON.stringify(arraySaya)) // Cara Ketiga
 
-arrayCopy[0] = 'Hidung'
-console.log(arraySaya)
-console.log(arrayCopy)
+// arrayCopy[0] = 'Hidung'
+// console.log(arraySaya)
+// console.log(arrayCopy)
 
+// Array dengan berbagai tipe data dan multidimensi array
+
+const arraySaya = ['String', 10, {tomat: function(){
+    console.log('ini adalah fungsi tomat')
+    }}, 'Apel', ['Teh', 'jagung']]
+
+arraySaya[2].tomat() 
