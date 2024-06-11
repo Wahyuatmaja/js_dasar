@@ -1,5 +1,5 @@
 // /* 
-// BERSENANDUNG BERSAMA ARRAY
+// ARRAY
 // **/
 
 // /* Ada 4 cara pemakaian Array **/

@@ -17,9 +17,9 @@ document.title ='Belajar Dom'
 // body.append(h1) //Menampilkan isi h1 ke dalam body html
 
 //Selector
-const btn1 = document.getElementById('btn1')
-const btn2 = document.querySelector('.btn2')
-const body = document.body
+const btn1 = document.getElementById('btn1') // jika html button menggunakan id
+const btn2 = document.querySelector('.btn2') // jika html button menggunakan class
+const body = document.body // Mendeklarasikan body html
 
 const defaultText = 'Klik Saya 1'
 btn1.textContent = defaultText
