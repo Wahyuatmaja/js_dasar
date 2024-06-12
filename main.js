@@ -20,9 +20,21 @@
 //      TambahNama('Joko gobles', 'Widodo')
 
 // Jika ingin menggunakan looping
-function TambahNama() {
-    for (let i = 0; i < arguments.length; i++) {
-        console.log(arguments[i])
-    }
+// function TambahNama() {
+//     for (let i = 0; i < arguments.length; i++) {
+//         console.log(arguments[i])
+//     }
+// }
+// TambahNama('Joko', 'gobles', 'Widodo')
+
+// jika ingin menjadikan function sebagai variabel function baru
+function addName(namaDepan, NamaBelakang) {
+    console.log(namaDepan, NamaBelakang)
 }
-TambahNama('Joko', 'gobles', 'Widodo')
+const body = document.body
+const h1 = document.createElement('h1')
+
+const sum = new Function('a', 'b', 'return a+b',) 
+const total = (sum(45, 30))
+h1.innerHTML = total
+body.append(h1) // cara pemanggilannya ke body HTML nya 
